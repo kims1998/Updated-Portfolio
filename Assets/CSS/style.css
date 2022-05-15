@@ -5,9 +5,9 @@ body {
     margin: 100px 50px 100px 50px;
     border-width: 15px;
     border-style: solid;
-    border-image: linear-gradient(to right, #4E8557, #AAD28D) 1;
-    font-family: 'Courier New', Courier, monospace;
-    color: #0B6576;
+    border-image: linear-gradient(to right, #f70f0f, white, #0f0cd3) 1;
+    font-family: 'times', 'Times New Roman',;
+    color: #000000;
 }
 
 header {
@@ -40,7 +40,7 @@ nav a {
     display: grid;
     grid-template-columns: 1fr;
     grid-column: 1;
-    border-right: 5px solid #0B6576;
+    border-right: 5px solid #fc8080;
     margin-right: 50px;
     margin-left: 10px;
     height: auto;
@@ -65,6 +65,7 @@ nav a {
 .pfp {
     width: 90%;
     height: 100%;
+    border-radius: 45px;
 }
 
 #work {
@@ -117,14 +118,24 @@ nav a {
 }
 
 .imgBanner {
-    background-color: #A0CA87;
+    background-color: #bed2f1;
     border-radius: 5px;
-    ;
     color: white;
     font-size: 30px;
     font-weight: bold;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 2.5px 4px #3787ff;
 }
+
+.first {
+    color: red;
+    text-shadow: 1px 1px white;
+}
+
+.last {
+    color:blue;
+    text-shadow: 1px 1px white;
+}
+
 
 #work a {
     text-decoration: none;
@@ -158,11 +169,11 @@ nav a {
             "header"
             "aboutMe"
             "categories"
-            "largeProject"
-            "smallProject1"
-            "smallProject2"
-            "smallProject3"
-            "smallProject4"
+            "project1"
+            "homeWork1"
+            "homeWork2"
+            "bell"
+            "boeing"
             "contact";
         border-style: none;
     }
@@ -187,32 +198,32 @@ nav a {
         grid-column: 2/3;
     }
 
-    .profilePicture {
+    .pfp {
         width: 90%;
         height: 100%;
     }
 
-    .largeProject {
+    .project1 {
         grid-row: 4/5;
         grid-column: span 3;
     }
 
-    .smallProject1 {
+    .homeWork1 {
         grid-row: 5/6;
         grid-column: span 2/3;
     }
 
-    .smallProject2 {
+    .homeWork2 {
         grid-row: 6/7;
         grid-column: span 2/3;
     }
 
-    .smallProject3 {
+    .bell {
         grid-row: 7/8;
         grid-column: span 2/3;
     }
 
-    .smallProject4 {
+    .boeing {
         grid-row: 8/9;
         grid-column: span 2/3;
     }
@@ -249,7 +260,7 @@ nav a {
         border-style: none;
     }
 
-    .profilePicture {
+    .pfp {
         width: 90%;
         height: 90%;
 
