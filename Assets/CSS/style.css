@@ -103,7 +103,7 @@ nav a {
     height: 300px;
 }
 
-.boeing {
+.bell {
     grid-column: 1/2;
     background-image: url("../IMG/ImgLeft.JPG");
     background-position: center;
@@ -111,7 +111,7 @@ nav a {
     height: 300px;
 }
 
-.bell {
+.boeing {
     grid-column: 2/3;
     background-image: url("../IMG/ImgRight.jpg");
     background-position: center;
