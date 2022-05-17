@@ -113,7 +113,7 @@ nav a {
 
 .boeing {
     grid-column: 2/3;
-    background-image: url("../IMG/ImgRight.jpg");
+    background-image: url("../IMG/ImgRight.JPG");
     background-position: center;
     background-size: cover;
     height: 300px;
