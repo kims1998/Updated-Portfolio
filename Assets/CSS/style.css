@@ -2,21 +2,22 @@ body {
     display: grid;
     grid-template-columns: 2fr 5fr;
     grid-gap: 2em 0em;
-    margin: 100px 50px 100px 50px;
-    border-width: 15px;
+    margin: 100px 50px;
+    border-width: 18px;
     border-style: solid;
     border-image: linear-gradient(to right, #f70f0f, white, #0f0cd3) 1;
     font-family: 'times', 'Times New Roman',;
-    color: #000000;
+    color: #1b1a1a;
 }
 
 header {
     grid-column: span 2;
+    border-bottom: 4px solid #fc8080;
 }
 
 header h1 {
     position: relative;
-    font-size: 2.7em;
+    font-size: 3em;
     font-weight: bold;
 }
 
@@ -27,14 +28,15 @@ nav {
 
 nav a {
     position: relative;
-    font-size: 1.3em;
-    margin-right: 40px;
-    margin-top: -40px;
-    color: #0B6576;
+    font-size: 1.8em;
+    margin-right: 35px;
+    margin-top: -72px;
+    color: #0b2876;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.categories {
+.lefty {
     font-size: 1.5em;
     font-weight: bold;
     display: grid;
@@ -55,7 +57,7 @@ nav a {
 }
 
 #aboutMe p {
-    font-size: 1em;
+    font-size: 1.3em;
     width: 100%;
     height: 100%;
     line-height: 2;
@@ -82,7 +84,7 @@ nav a {
     background-image: url('../IMG/project1.png');
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 385px;
 }
 
 .homeWork1 {
@@ -136,11 +138,10 @@ nav a {
     text-shadow: 1px 1px white;
 }
 
-
 #work a {
     text-decoration: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
 }
 
@@ -150,7 +151,6 @@ nav a {
 }
 
 #contact span {
-
     font-size: 1.3em;
     margin-right: 35px;
 }
@@ -183,7 +183,7 @@ nav a {
         grid-column: span 3;
     }
 
-    .categories {
+    .lefty {
         font-size: 2em;
         font-weight: bold;
         display: grid;
