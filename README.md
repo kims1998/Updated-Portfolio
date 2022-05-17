@@ -13,6 +13,7 @@ With the new portfolio:
 For the next time the portfolio is updated, there will be comments and more organization within the CSS in order to figure out where all the CSS is placed.
 
 
-Deployed URL: <a href="https://kims1998.github.io/Updated-Portfolio/">
-screenshot : <img src="">
-             <img src="">
+Deployed URL: <a href="https://kims1998.github.io/Updated-Portfolio/"> Deployed URL</a>
+
+Screenshots : <a href="https://github.com/kims1998/Updated-Portfolio/blob/main/Assets/IMG/top.PNG"> Top portion</a>
+             <a href="https://github.com/kims1998/Updated-Portfolio/blob/main/Assets/IMG/bottomm.PNG"> Bottom portion</a>
